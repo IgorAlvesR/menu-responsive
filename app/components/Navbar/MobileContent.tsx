@@ -11,6 +11,7 @@ const MobileContent: React.FC<MobileContentProps> = ({ children, show }) => {
   return (
     <>
       <ul
+        data-testid="nav-content-test"
         className={`            
           flex             
           flex-col 
